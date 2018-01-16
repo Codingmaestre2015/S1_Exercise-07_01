@@ -46,14 +46,15 @@
 
       <aside>
          <ul>
-            <li>Blanket Flower</li>
-            <li>Hedge Rose</li>
-            <li>Little Bluestem</li>
+            <li onclick="document.getElementById('plantImg').src = blanket">Blanket Flower</li>
+            <li onclick="document.getElementById('plantImg').src = rugosa">Hedge Rose</li>
+            <li onclick="document.getElementById('plantImg').src = bluestem">Little Bluestem</li>
          </ul>
       </aside>
 
       <article>
          <figure>
+                 <img src="#" width="640" height="400" alt="" title="" id="plantImg" />
              <figcaption>
                      <script type="text/javascript">
                      /*
@@ -69,5 +70,7 @@
          <p>Tinley Xeriscapes &bull; Tinley Park, IL 60477</p>
       </footer>
    </div>
+   <script type="text/javascript" src="plants.js"></script>
 </body>
+
 </html>
